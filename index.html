@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Road To Andromeda</title>
+  <script src="library.js" charset="utf-8"></script>
+  <script src="wagonband.js" charset="utf-8"></script>
+  <script src="game.js" charset="utf-8"></script>
+  <script src="characters.js" charset="utf-8"></script>
+  <script src="shops.js" charset="utf-8"></script>
+</head>
+<body>
+
+  <div id="game">
+    <div id="startmenu">
+      <h1 style="left:40%; top:20%; position:absolute; font-size: 40px;" id="gameTitle">Road to Andromeda</h1>
+      <button id="startButton" style="left:50%; top:60%; position:absolute">Start</button>
+    </div>
+    <button id="showCharacters">Characters</button>
+    <button id="showItems">Items</button>
+    <div id="showSomething"><div id="leaveShow">X</div><div id="showText"></div></div>
+    <div id="shop"><h3><b>Shop</b></h3><div id="storeContent"><div id="leavestore"></div><div id="itemsForSale"></div></div></div>
+    <div id="wagonimg"><img src="car.png" alt="Car Image" id="carimg"><img src="fireJet.jpg" width="120px" height="50px" id="fireJetImg"></div>
+    <div id="textbox"><div id="text"></div><br><div id="choices"></div><button id="continue">Next &#187;</button></div>
+    <div id="dice"><img src="dice.png" width="100%" height="100%"><div id="rollResult">10</div></div>
+
+
+  </div>
+
+
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body, html {margin: 0;}
+#game{width:100%;height:100%;margin:0;position: absolute;display: block;background-color: red;}
+#showCharacters {background-color: red;position: relative;left:20px;top:10px;}
+#showItems {background-color: red;position: relative;left: 20px;top:10px;}
+#showItems:hover, #showCharacters:hover {background-color: #CD5C5C;border: 2px solid green;}
+#showSomething {background-color:limegreen; width: 80%; height: 65%; z-index: 3; margin-left: -40%; left:50%; position: absolute; display: none; bottom: 180px;z-index: 32}
+#leaveShow {background-color: orange; position: relative; color: white; left: 1000px;top:10px;font-family: 'Helvetica', 'Arial', sans-serif;font-size: 2em;font-weight: bold;text-align: center;width: 40px;height: 40px;}
+#leaveShow:hover {color: #DDD; background-color: #EE9400;}
+#wagonimg {position: absolute;left: 45%;top: 50%;padding: 0;}
+#fireJetImg {position: relative; bottom: 25px; transform:rotate(180deg); visibility: hidden}
+#textbox {position: absolute; bottom:10px; left:50%; width: 800px; margin-left:-400px;height: 150px; background-color: black; border: 5px solid white; overflow: auto;}
+#text {font-size: 20px; font-family: 'Times New Roman', serif; color: white;}
+#continue {position: relative; background-color: red; color: white; width: 95px; height: 30px; font-size: 23px;}
+#carimg {width: 300px;height: 144px;}
+#startmenu {height: 100%;width: 100%;background-color: gray;position: absolute;z-index: 40;}
+#shop {text-align: center;  width: 80%; height: 65%; z-index: 3; margin-left: -40%; left:50%; position: absolute; display: none; bottom: 180px; background-color: brown;}
+.choicebutton {width: auto; background-color: white; color: black;}
+#storeContent {}
+.itemHolder {width: 100px; height: 150px; background-color: blue; position: absolute; z-index:24;}
+.shopItemName {text-decoration: underline; font-size: 20px; color: white;}
+.plusArrow {background-color: red; width:50px; height: 35px}
+.minusArrow {background-color: green; width:50px; height: 35px}
+.itemImage {width: 60px; height: 50px;}
+.itemPriceNumber {color: white;}
+#dice{background-color: red; border: 5px groove gray; border-top: 0px groove gray; position: absolute; width:100px; height:100px; left: 50%; margin-left: -50px; top:0; display: none;}
+#rollResult {left: 42px; top: 38px;position: absolute; color: black;}
